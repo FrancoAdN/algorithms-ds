@@ -1,0 +1,8 @@
+Allen is a seller on TikTok and utilizes a 1-indexed array products of length n to keep track of the current inventory.
+When updating products, he can only perform the following operation: select an i where 1 <= i <= n and for all 1 <= j <= i, set products [j] = products[j] + 1 (i.e. add 1 to every element in the prefix of length 1). Allen wants to convert products to be a palindrome using the above operation a minimum number of times MIN
+Array is a palindrome if it reads the same backwards and forwards. Examples include [1,6,1] and [2,9,9,2].
+Return the minimum number of times MIN to convert products to a palindrome. If this is impossible, return -1.
+Function Description
+Complete the function minPalindrome in the editor below. The function returns an integer MIN
+minPalindrome has the following parameter:
+* products: a 1-indexed integer array.

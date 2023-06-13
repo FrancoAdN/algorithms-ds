@@ -1,0 +1,13 @@
+There are n people want to become a professional software engineer. Before becoming a professional software engineer, they must be good at data structure and algorithms. They decide to study data structure and algorithms by using a platform called Tikcode.
+Tikcode is the world leading platform that helps software engineers to land their dream jobs and improve their coding skills. There is a 0-indexed integer array accounts. For 0 <= i < n, accounts[i] denoting how many coding questions have been solved on user; 's account.
+There is another O-indexed 3 m integer array events denoting the sequential events.
+There are 2 types of events happened, more formally: For 0 <= j <m:
+• events[j][0] = 1 if the event is the first type. events [j][0] = 2 if the event is the second type.
+• For events [j][0] = 1: all user's solving less than events [j] [1] problems are required to practice and solve up to events[j] [1] coding questions.
+• For events[j][0] = 2: user events [j] [1] would close his account and open a new one. At the same time, he/she would practice and solve up to events [j] [2] coding questions.
+After m events, return an integer array denoting how many coding question are solved on each user's account.
+Function Description
+Complete the function studyTikcode in the editor below. The function should return an integer array.
+studyTikcode has the following parameter(s):
+• accounts: a 0-indexed integer array.
+• events: a 3 m integer array.
